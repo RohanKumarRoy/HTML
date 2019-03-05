@@ -1,0 +1,323 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+body {
+
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #000000;
+    background-color: #ffffff;
+    text-align: justify;
+    font-family: 'Karla', sans-serif;
+}
+
+.gmail{
+    background-color: #262626;
+    padding: 1%;
+    padding-left:10%;
+    height: 30px;
+    color: white;
+}
+
+.icon{
+    float: right;
+    top: 0;
+    padding-right: 10%;
+    text-align: right;
+    word-spacing: 30px;
+}
+
+.fixed-header{
+    position: relative;
+    width:100%;
+    height:70px;
+    border-top: 1px solid rgba(255,255,255,.2);
+    border-bottom: 1px solid rgba(255, 255,255,.2);
+    top: 0px;
+    color:white; 
+    background-color:black;
+    z-index: 1000;
+    box-shadow: 1px 2px 8px #5d5d5a;
+    position: sticky;
+}
+
+.fixed-header img{
+    height:100%;
+    width:350px;
+    margin-left: 5%;
+}
+
+.logo{
+    font-size: 20px;
+    padding-top:30px;
+    float:right;
+    padding-right: 10%;
+    color:white;
+    word-spacing: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+.fixed-header nav a {
+
+   text-decoration: none;
+    color:white;
+}
+
+.about{
+    width:100%;
+    height: 750px;
+    background-color:#555;
+    background-image: url(r.png);
+}
+
+.content{
+   
+    padding-top: 8%;
+    font-size: 20px;
+    font-style: bold;
+    color: white;
+    padding-right:10%;
+    margin-left: 2%;
+    margin-right: 40%;
+}
+
+.btn{
+    float: center;
+    margin-left: 40%;
+    height: 40px;
+    font-size:  18px;
+    opacity: 0;
+}
+
+.btn a{
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: white;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 102px;
+  }
+  
+  .mySlides{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+
+  .hr{
+      size:2px;
+      width:40%;
+      height: 1px;
+      color: whitesmoke;
+  }
+
+  .congo{
+      color: #555;
+  }
+
+  .mySlides {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  width: 90%;
+  height: 260px;;
+  position: relative;
+  margin:auto;
+   /* box-shadow: 0px 2px 10px 5px grey;  */
+
+}
+
+ .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 10px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px; 
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+   position: relative;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.mySlides img{
+
+    float: left;
+    padding: 2%;
+    margin-left: 8% ;
+    z-index: 1;
+}
+
+.mySlides img:hover{
+    box-sizing: content-box;
+     box-shadow:   1px 5px grey; 
+ 
+}
+
+.row{
+    margin-left: 10%;
+     z-index: 1;;
+}
+
+  .column {
+    float: left;
+    width: auto;
+  }
+
+  
+.column img:hover{
+       filter: grayscale(100%);
+       z-index: 1;
+  }
+
+  /* SUBJECT */
+  .sub-list{
+    background-color:white;
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    transform: translate(-50%); 
+}
+
+.biology{
+    border-radius: 52%;
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    margin: 3px 10px;
+}
+
+.physics{
+    border-radius: 52%;
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    margin: 3px 10px;
+}
+
+.chemistry{
+    border-radius: 52%;
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    margin: 3px 10px;
+    background-color: greenyellow;
+}
+
+.maths{
+    border-radius: 52%;
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    margin: 3px 10px;
+}
+
+.sub-img{
+    width: 120px;
+    height: 120px;
+}
+
+.overlay{
+    position: relative;
+    bottom: 120px;
+    border-radius: 60%;
+    width: 120px;
+    height: 120px;
+    background-color: rbga(0,0,0,0);
+    transition: background 0.5s ease; 
+}
+
+.sub-btn{
+    position: absolute;
+    margin-left: 10px; 
+    bottom: 60px;
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: 0;
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+
+.sub-btn a{
+    text-decoration: none;
+    padding: 4px 8px;
+    color: white;
+    z-index: 1;
+}
+
+.biology:hover .overlay, .chemistry:hover .overlay, .maths:hover .overlay, .physics:hover .overlay{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.biology:hover .sub-btn, .chemistry:hover .sub-btn, .maths:hover .sub-btn, .physics:hover .sub-btn{
+    opacity: 1;
+}
+
+.biology:hover .sub-btn a, .chemistry:hover .sub-btn a, .maths:hover .sub-btn a, .physics:hover .sub-btn a{
+    text-decoration: underline;
+}
+
+/* VIDEO */
+table{
+    background-color: black;
+  
+  }
+
+  .menu{
+    color:white;
+    margin-left: 5%;
+    text-align: center;
+  }  
+
+  /* FOOTER */
+  
